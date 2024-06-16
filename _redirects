@@ -1,1 +1,12 @@
 /* /index.html 200
+my-project/
+├── public/          # Diretório de publicação
+│   ├── index.html
+│   ├── _redirects   # Adicione o arquivo de redirecionamento aqui
+│   ├── css/
+│   ├── js/
+│   └── ...
+├── src/
+│   └── ...         # Código-fonte do projeto
+├── package.json
+└── netlify.toml    # Configuração do Netlify (opcional)
