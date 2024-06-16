@@ -14,7 +14,7 @@ $assunto = 'Coleta de dados';
 $corpo = "Nome: " . $nome . "\n" . "E-mail: " . $email . "\n" . "Telefone: " . $telefone . "\n" . "Mensagem: " . $mensagem;
 
 // Cabeçalhos do e-mail
-$cabeca = "From: gustavo.silva031@outlook.com" . "\n" . "Reply-to: " . $email . "\n" . "X-Mailer: PHP/" . phpversion();
+$cabeca = "From: soaregustavo8401@gmail.com" . "\n" . "Reply-to: " . $email . "\n" . "X-Mailer: PHP/" . phpversion();
 
 // Envio do e-mail
 if(mail($para, $assunto, $corpo, $cabeca)){
